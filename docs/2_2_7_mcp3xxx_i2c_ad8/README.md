@@ -38,6 +38,8 @@ Hardware support is provided by specific GPIO, Sensor and Stream modules. It's e
   - DHT11/DHT22/AM2302 temperature and humidity sensors (`dht22`)
   - DS18S20/DS1822/DS18B20/DS1825/DS28EA00/MAX31850K temperature sensors (`ds18b`)
   - HCSR04 ultrasonic range sensor (connected to the Raspberry Pi on-board GPIO) (`hcsr04`)
+  - Horter & Kalb i2c analog to digital converter
+https://www.horter.de/blog/i2c-analog-input-8-kanaele-0-10v-10-bit-2/ (`i2c_ae8_pic`)
   - INA219 DC current sensor (`ina219`)
   - LM75 temperature sensor (`lm75`)
   - MCP3008 analog to digital converter (`mcp3008`)
