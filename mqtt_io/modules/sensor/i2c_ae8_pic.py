@@ -47,7 +47,7 @@ class Sensor(GenericSensor):
         block = self.bus.read_i2c_block_data(self.address, 0, 17)
 
         # Value is between 0 and max 1023
-        val_1023 = block[2 + channel] * 265 + block[1 + channel]
+        val_1023 = block[2 + channel*2] * 265 + block[1 + channel*2]
 
         # 1023 represents maximum 10V, therefore convert
 
